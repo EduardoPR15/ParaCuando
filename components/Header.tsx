@@ -1,10 +1,11 @@
+import Image from 'next/image';
 import img from '../public/Header.png';
 type Props = {};
 
 const Header = (props: Props) => {
   return (
     <>
-      <img src={img}></img>
+      <Image src={img}></Image>
     </>
   );
 };
