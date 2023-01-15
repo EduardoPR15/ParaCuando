@@ -5,7 +5,7 @@ type Props = {};
 const Header = (props: Props) => {
   return (
     <>
-      <Image src={img}></Image>
+      <Image src={img} alt="header"></Image>
     </>
   );
 };
