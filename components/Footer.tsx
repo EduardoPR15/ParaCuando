@@ -1,12 +1,9 @@
-import Image from 'next/image';
-import img from '../public/Footer.png';
 import Searcher from './Searcher';
 type Props = {};
 const Footer = (props: Props) => {
   return (
-    <div className="w-full bg-image im">
+    <div className=" bg-[url('../public/Footer.png')] h-[30.5rem] w-full flex items-center justify-center text-justify  bg-center pt-40 ">
       <Searcher />
-      <Image className="w-full" src={img} alt="footer"></Image>
     </div>
   );
 };

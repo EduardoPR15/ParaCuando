@@ -5,7 +5,7 @@ const Layout = (props: Props) => {
   return (
     <>
       <Header />
-      hola
+      body
       <Footer />
     </>
   );
