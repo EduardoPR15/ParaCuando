@@ -3,8 +3,19 @@
 @tailwind components;
 @tailwind utilities;
 
- .Next-arrow{
-background-color: aliceblue;
-width: fit-content;
 
+ @layer{
+    .Next-arrow{
+    
+    } 
+
+    
+
+ } 
+
+ .Heart-icon{
+    display: flex;
+    position: relative;
+    margin: auto;
+    /* top: 9px; */
  }

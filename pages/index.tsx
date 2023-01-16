@@ -5,6 +5,9 @@ import styles from '../styles/Home.module.css';
 import NextButton from './components/NextButton';
 import SearchBar from './components/SearchBar';
 import NextArrow from './components/NextArrow';
+import LikeButton from './components/LikeButton';
+import NotLikeButton from './components/NotLikeButton';
+import ProfileIcon from './components/ProfileIcon';
 
 
 
@@ -28,6 +31,9 @@ export default function Home() {
        <NextButton/>
        <SearchBar/>
        <NextArrow/>
+        <LikeButton/>
+        <NotLikeButton/>
+        <ProfileIcon/>
        </div>
       </main>
     </>
