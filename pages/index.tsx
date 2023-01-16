@@ -3,6 +3,8 @@ import Image from 'next/image';
 import { Inter } from '@next/font/google';
 import styles from '../styles/Home.module.css';
 import NextButton from './components/NextButton';
+import SearchBar from './components/SearchBar';
+import NextArrow from './components/NextArrow';
 
 
 
@@ -24,6 +26,8 @@ export default function Home() {
 <div className='w-28px h-10px bg-primary-grayDark st'> aaaa</div>
        <div>
        <NextButton/>
+       <SearchBar/>
+       <NextArrow/>
        </div>
       </main>
     </>
