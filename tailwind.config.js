@@ -15,7 +15,9 @@ module.exports = {
       lg: '1200px',
       xl: '1536px',
     },
-    colors: {
+    
+    extend: {
+      colors: {
       'primary-blue': '#1B4DB1',
       'primary-yellow' : '#F3F243',
       'primary-pink': '#FF64BC',
@@ -62,7 +64,6 @@ module.exports = {
       fontWeight: '500'
     }]
     },
-    extend: {
       dropShadow: {
         'shadow': '0 2px 2px rgba(0, 0, 0, 0.25)',
       },

@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { Inter } from '@next/font/google';
 import styles from '../styles/Home.module.css';
+import NextButton from './components/NextButton';
 
 
 
@@ -17,11 +18,13 @@ export default function Home() {
       <main>
         <div className='w-auto h-auto bg-primary-blue'>
         <h1 className="text-h900 text-primary-yellow">
-      Hello world!
+      Hello world!!!!!!!
   </h1>  
 </div>
 <div className='w-28px h-10px bg-primary-grayDark st'> aaaa</div>
-       
+       <div>
+       <NextButton/>
+       </div>
       </main>
     </>
   );
