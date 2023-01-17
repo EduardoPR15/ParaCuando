@@ -8,6 +8,7 @@ import NextArrow from './components/NextArrow';
 import LikeButton from './components/LikeButton';
 import NotLikeButton from './components/NotLikeButton';
 import ProfileIcon from './components/ProfileIcon';
+import EventCard from './components/EventCard';
 
 
 
@@ -34,6 +35,7 @@ export default function Home() {
         <LikeButton/>
         <NotLikeButton/>
         <ProfileIcon/>
+        <EventCard/>
        </div>
       </main>
     </>
