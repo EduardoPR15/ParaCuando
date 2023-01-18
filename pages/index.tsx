@@ -1,9 +1,15 @@
 import Head from 'next/head';
-
+import Image from 'next/image';
+import { Inter } from '@next/font/google';
+import styles from '../styles/Home.module.css';
+import NextButton from '../components/NextButton';
+import SearchBar from '../components/SearchBar';
+import NextArrow from '../components/NextArrow';
 import Layout from '../components/Layout';
-import NextArrow from './components/NextArrow';
-import NextButton from './components/NextButton';
-import SearchBar from './components/SearchBar';
+import EventCard from '../components/EventCard';
+
+
+
 export default function Home() {
   return (
     <>
@@ -14,10 +20,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Layout />
-        <NextButton />
-        <SearchBar />
-        <NextArrow />
+      
+       <div>
+        <Layout/>
+       <NextButton/>
+       <SearchBar/>
+       <NextArrow/>
+       <EventCard/>
+       </div>
       </main>
     </>
   );
