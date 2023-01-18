@@ -6,10 +6,9 @@ import logo from '../public/Frame.png';
 import frame from '../public/Frame2.png';
 import person from '../public/person.png';
 import Searcher from './Searcher';
-type Props = {};
 
-const Header = (props: Props) => {
-  const [isLoggin, setisLoggin] = useState(true);
+const Header = () => {
+  const [isLogin, setisLogin] = useState(true);
   return (
     <>
       <div className="w-full  h-16 bg-black flex  justify-between gap-7 px-8">
@@ -17,7 +16,7 @@ const Header = (props: Props) => {
           <Image src={frame} alt="icons" />
         </div>
         <nav className=" flex flex-wrap justify-items-end content-center items-end justify-end gap-5	">
-          {isLoggin ? (
+          {isLogin ? (
             <div className="flex flex-wrap justify-items-end content-center items-end justify-end gap-5">
               <button className="text-blue text-xs"> + Crear pubicacion</button>
               <div className="">

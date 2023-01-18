@@ -1,6 +1,4 @@
-type Props = {};
-
-const Searcher = (props: Props) => {
+const Searcher = () => {
   return (
     <div className="w-[29.063rem] px-8">
       <input

@@ -1,7 +1,6 @@
-type Props = {};
 import Footer from './Footer';
 import Header from './Header';
-const Layout = (props: Props) => {
+const Layout = () => {
   return (
     <>
       <Header />
