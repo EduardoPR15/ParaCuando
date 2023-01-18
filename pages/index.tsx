@@ -7,6 +7,7 @@ import SearchBar from '../components/SearchBar';
 import NextArrow from '../components/NextArrow';
 import Layout from '../components/Layout';
 import EventCard from '../components/EventCard';
+import LikeButton from '../components/LikeButton';
 
 
 
@@ -26,6 +27,7 @@ export default function Home() {
        <NextButton/>
        <SearchBar/>
        <NextArrow/>
+       <LikeButton/>
        <EventCard/>
        </div>
       </main>
