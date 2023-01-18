@@ -15,7 +15,7 @@ module.exports = {
       lg: '1200px',
       xl: '1536px',
     },
-    
+  },
     extend: {
       colors: {
       'primary-blue': '#1B4DB1',
@@ -69,8 +69,8 @@ module.exports = {
       },
       backgroundImage: {
         'logo1': "url('/logo1.png')"
-      }
-  },
+      },
+  
   plugins: [],
 }
 
