@@ -1,12 +1,11 @@
-import React from 'react'
+import Image from 'next/image';
 
 const NextArrow = () => {
   return (
-    <div className='Next-arrow'  >
-        <img src="../arrow.png "alt="" />
+    <div className="Next-arrow">
+      <Image src="../arrow.png " alt="" />
     </div>
-  )
-}
+  );
+};
 
-
-export default NextArrow
+export default NextArrow;
