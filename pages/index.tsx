@@ -5,6 +5,8 @@ import styles from '../styles/Home.module.css';
 import NextButton from '../components/NextButton';
 import SearchBar from '../components/SearchBar';
 import NextArrow from '../components/NextArrow';
+import Layout from '../components/Layout';
+import EventCard from '../components/EventCard';
 
 
 
@@ -18,16 +20,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className='w-auto h-auto bg-primary-blue'>
-        <h1 className="text-h900 text-primary-yellow">
-      Hello world!!!!!!!
-  </h1>  
-</div>
-<div className='w-28px h-10px bg-primary-grayDark st'> aaaa</div>
+      
        <div>
+        <Layout/>
        <NextButton/>
        <SearchBar/>
        <NextArrow/>
+       <EventCard/>
        </div>
       </main>
     </>

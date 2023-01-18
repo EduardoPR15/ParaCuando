@@ -4,6 +4,10 @@ import NotLikeButton from './NotLikeButton'
 import ProfileIcon from './ProfileIcon'
 
 const EventCard = () => {
+
+
+
+  
   return (
     <div className='rounded-2xl overflow-hidden w-80 shadow h-max'>
         

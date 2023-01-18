@@ -3,18 +3,3 @@
 @tailwind utilities;
 
 
- @layer{
-    .Next-arrow{
-    
-    } 
-
-    
-
- } 
-
- .Heart-icon{
-    display: flex;
-    position: relative;
-    margin: auto;
-    /* top: 9px; */
- }
