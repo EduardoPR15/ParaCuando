@@ -9,7 +9,6 @@ const LikeButton = () => {
 
 
 
-  let colorClass = '';
   function likeBtn() {  
     if (Color === true) {
     

@@ -2,18 +2,18 @@ import React from 'react'
 
 const Login = () => {
   return (
-    <div className="w-full h-2/4 flex overflow-hidden ">
+    <div className="w-full h-2/4 justify-center items-center flex flex-col sm:h-screen  sm:flex-row overflow-hidden ">
 
-    <div className=" w-6/12 ">
-      <img className="w-full" src="./Rectangle 133.png" alt="" />
+    <div className=" w-6/12 hidden sm:flex  ">
+      <img className="w-full h-full" src="./Rectangle 133.png" alt="" />
     </div>
     
-    <div className="w-6/12">
-        <div className='  w-full flex justify-center items-center mt-16 mb-10'>
+    <div className="w-6/12 ">
+        <div className='w-full sm:h-42 flex justify-center items-center mt-16 mb-10'>
             <img className='' src="./logoblue.png" alt="" />
         </div>
 
-        <div className='w-3/4 pl-40'>
+        <div className='md:w-3/4 md:ml-24'>
             <h1 className='bg-red text-h500-T pb-3'>Login</h1>
             <p className='pb-8 text-primary-gray'>Login with the data you entered during your registration.</p>
               <h2 className='pb-1 text-h500-S'>Email</h2>
