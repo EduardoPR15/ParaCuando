@@ -1,10 +1,11 @@
 import Footer from './Footer';
 import Header from './Header';
+import Slider from './Slider';
 const Layout = () => {
   return (
     <>
       <Header />
-      body
+      <Slider />
       <Footer />
     </>
   );
