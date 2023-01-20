@@ -6,6 +6,8 @@ const Login = () => {
 
     <div className=" w-6/12 hidden sm:flex  ">
       <img className="w-full h-full" src="./Rectangle 133.png" alt="" />
+      <img className='absolute bottom-1/4 right-3/4' src="./Groupwhite.png" alt="" />
+      <img className='absolute bottom-1/4 left-96' src="./Queretaro.png" alt="" />
     </div>
     
     <div className="w-6/12 ">
