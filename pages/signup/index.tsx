@@ -1,5 +1,9 @@
+import SignUp from "../../components/SignUp";
+
 const index = () => {
-  return <div>index</div>;
+  return <div>
+    <SignUp/>
+  </div>;
 };
 
 export default index;
