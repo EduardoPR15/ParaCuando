@@ -1,5 +1,10 @@
+import MultiStepFrom from "../../components/MultiStepFrom";
+
 const index = () => {
-  return <div>crear publicacion 1 y 2</div>;
+  return <div>
+    
+    <MultiStepFrom/>
+  </div>;
 };
 
 export default index;
