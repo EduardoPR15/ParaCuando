@@ -103,6 +103,8 @@ module.exports = {
         black: '#000000',
         white: '#FFFFFF',
         gray: '#A7A6A7',
+        text1black: '#1A1E2E',
+        text2black: '#6E6A6C',
       },
       fontSize: {
         xs: '0.75rem',

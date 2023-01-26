@@ -2,7 +2,7 @@ import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import EventCard from './EventCard';
 
-import { A11y, Navigation, Pagination, Scrollbar } from 'swiper';
+import { Navigation } from 'swiper';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -10,17 +10,15 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 type Props = {};
-const Slider = (props: Props) => {
+const Slider = () => {
   return (
     <Swiper
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={50}
+      modules={[Navigation]}
+      spaceBetween={10}
       slidesPerView={3}
       navigation
-      pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
-      className="flex flex-row justify-center items-center"
+      className="min-h-full"
     >
       <SwiperSlide>
         <EventCard />
@@ -43,7 +41,7 @@ const Slider = (props: Props) => {
       <SwiperSlide>
         <EventCard />
       </SwiperSlide>
-      ...
+      .
     </Swiper>
   );
 };

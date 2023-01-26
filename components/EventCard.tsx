@@ -3,7 +3,7 @@ import ProfileIcon from './ProfileIcon';
 
 const EventCard = () => {
   return (
-    <div className="rounded-2xl overflow-hidden w-80 shadow h-max">
+    <div className="rounded-2xl overflow-hidden w-80 shadow-xl h-max ">
       <img src="../Rectangle 1.png" alt="" />
       <div className="w-max relative bottom-6 left-3/4">
         <LikeButton />
