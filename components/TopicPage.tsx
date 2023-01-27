@@ -40,7 +40,9 @@ const TopicPage = () => {
           <h1>Populares en Querétaro</h1>
           <p>Lo que las personas piden más</p>
         </div>
-      
+      <div>
+        
+      </div>
     </div>
   )
 }
