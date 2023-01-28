@@ -9,40 +9,39 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import { kMaxLength } from 'buffer';
 type Props = {};
 const Slider = () => {
   return (
-    <Swiper
+    
+    <div className=' w-11/12 m-auto relative overflow-hidden'>
+      <Swiper
+       grabCursor={true}
       modules={[Navigation]}
-      spaceBetween={10}
-      slidesPerView={3}
+      spaceBetween={150} //10
+      slidesPerView={3} //3
       navigation
       onSwiper={(swiper) => console.log(swiper)}
-      className="min-h-full"
-    >
-      <SwiperSlide>
+      className="w-[900px] m-auto   absolute">
+      <SwiperSlide className=' '>
         <EventCard />
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className=' '>
         <EventCard />
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className=' '>
         <EventCard />
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className=' '>
         <EventCard />
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className=' '>
         <EventCard />
       </SwiperSlide>
-      <SwiperSlide>
-        <EventCard />
-      </SwiperSlide>
-      <SwiperSlide>
-        <EventCard />
-      </SwiperSlide>
+      
       .
     </Swiper>
+    </div>
   );
 };
 
