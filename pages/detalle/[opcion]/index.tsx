@@ -1,5 +1,11 @@
+import Detalle from '../../../components/Detalle';
+
 const index = () => {
-  return <div>pagina :id</div>;
+  return (
+    <div>
+      <Detalle />
+    </div>
+  );
 };
 
 export default index;
