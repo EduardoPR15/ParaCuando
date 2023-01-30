@@ -7,6 +7,7 @@ import frame from '../public/Frame2.png';
 import person from '../public/person.png';
 import Searcher from './Searcher';
 
+import Link from 'next/link';
 const Header = () => {
   const [isLogin, setisLogin] = useState(true);
   return (
@@ -18,15 +19,15 @@ const Header = () => {
         <nav className=" flex flex-wrap justify-items-end content-center items-end justify-end gap-5	">
           {isLogin ? (
             <div className="flex flex-wrap justify-items-end content-center items-end justify-end gap-5">
-              <button className="text-blue text-xs"> + Crear pubicacion</button>
+              <button className="text-blue text-xs"> <Link href="/publicacion">+ Crear pubicacion</Link> </button>
               <div className="">
-                <Image className="w-full" src={core} alt="core" />
+                <Image className="w-full " src={core} alt="core" />
               </div>
               <button className="text-white text-xs">Mis Votos</button>
               <div className="">
                 <Image className="w-full" src={person} alt="person" />
               </div>
-              <button className="text-white text-xs">Florencio Quelca</button>
+              <button className="text-white text-xs"><Link href="/perfil">Florencio Quelca</Link></button>
               <div className="">
                 <Image className="w-full" src={btn} alt="click" />
               </div>

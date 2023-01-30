@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const SignUp = () => {
   return (
@@ -42,7 +43,7 @@ const SignUp = () => {
               <button className='w-full bg-primary-blue text-white rounded-md p-2 mt-5 ' >Crear cuenta</button>
 
                 <p className='mt-6 w-full text-center text-h400-p text-primary-gray'>
-                <a href="">Or Log in</a>
+                <a> <Link href='/login'>Or Log in</Link></a>
                   </p>
         </div>
       

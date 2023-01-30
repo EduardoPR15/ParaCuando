@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const MultiStepFrom = () => {
   return (
@@ -64,7 +65,7 @@ const MultiStepFrom = () => {
             </fieldset>
           </div>
           <div className='flex justify-center mt-6 mb-10 sm:mb-1'>
-            <button  className="bg-primary-blue text-primary-grayLighter text-h600 py-4 px-6 rounded-full ">Siguiente</button>
+            <button  className="bg-primary-blue text-primary-grayLighter text-h600 py-4 px-6 rounded-full "><Link href="/PublicacionImg">Siguiente</Link></button>
             </div>
             </div>
           </div>
