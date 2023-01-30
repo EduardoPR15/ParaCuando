@@ -20,10 +20,12 @@ const CardDetail = () => {
           <ProfileIcon />
           <p className="pl-8 text-h500-p"> 44’800’756 votos</p>
         </div>
-
-        <button className="h-20 w-full bg-[#1B4DB1] border border-solid rounded-3xl px-2 font-sans text-h600 text-white">
+<div className=' flex justify-center'>
+<button className="h-20 w-full bg-[#1B4DB1] md:w-4/6 md:h-10 border border-solid rounded-3xl px-2 font-sans text-h600 text-white">
           Votar
         </button>
+</div>
+        
       </div>
       <Image className="w-full" src={Ladygaga} alt="img" />
     </div>

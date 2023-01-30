@@ -1,5 +1,9 @@
+import Detalle from "../../components/Detalle";
+
 const index = () => {
-  return <div>detalle</div>;
+  return <div>
+    <Detalle/>
+  </div>;
 };
 
 export default index;

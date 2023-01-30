@@ -1,6 +1,6 @@
 import LikeButton from './LikeButton';
 import ProfileIcon from './ProfileIcon';
-
+import Link from 'next/link';
 const EventCard = () => {
   return (
     <div className="rounded-2xl overflow-hidden w-80 shadow-xl h-max sm:w-1/22 ">
@@ -9,7 +9,7 @@ const EventCard = () => {
         <LikeButton />
       </div>
 
-      <div className="pt-4 pl-4 pb-2 text-h600">Tienda Zara</div>
+      <div className="pt-4 pl-4 pb-2 text-h600"><Link href="/detalle" >Tienda Zara</Link></div>
       <p className="text-h400-p pl-4 pr-7 pb-4 justify-center text-primary-grayDark">
         Tienda por departamento de marca de ropa y accesorios.
       </p>
