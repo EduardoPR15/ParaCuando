@@ -6,16 +6,16 @@ const SignUp = () => {
 
     <div className=" w-6/12 h-screen hidden md:flex  ">
       <img className="w-full h-full" src="./Rectangle 132.png" alt="" />
-     <img className='absolute bottom-1/4 right-3/4' src="./Groupwhite.png" alt="" />
-      <img className='absolute bottom-1/4 left-96' src="./Queretaro.png" alt="" />
+     <img className='absolute bottom-[220px]   md:left-[7%] lg:left-[12%] xl:left-[15%]' src="./Groupwhite.png" alt="" />
+      <img className='absolute bottom-[210px]   md:left-[30%] lg:left-[28%] xl:left-[30%]' src="./Queretaro.png" alt="" />
     </div>
     
-    <div className=" md:w-6/12 m-10 ">
+    <div className="max-w-md mx-auto">
         <div className='w-full sm:h-42 flex justify-center items-center mt-16 mb-10'>
             <img className='' src="./logoblue.png" alt="" />
         </div>
 
-        <div className='md:w-3/4 md:ml-24 w-11/12 flex-col m-auto  overflow-hidden'>
+        <div className='md:w-3/4  w-11/12 flex-col m-auto  overflow-hidden'>
             <h1 className='bg-red text-h500-T pb-3'>Sign up</h1>
             <p className='pb-8 text-primary-gray'>Login with the data you entered during your registration.</p>
               <h2 className='pb-1 text-h500-S'>Email</h2>
