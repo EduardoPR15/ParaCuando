@@ -24,7 +24,7 @@ const index = () => {
     <h1>Layout:</h1>
     <Layout/>
     <h1>Like button:</h1>
-    <LikeButton/>
+   
     <h1>Next arrow button: </h1>
     <NextArrow/>
     <h1>Next button:</h1>
