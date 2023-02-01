@@ -1,6 +1,6 @@
 const Frame = () => {
   return (
-    <div className="p-10">
+    <div className="p-10 bg-primary-grayLighter">
       <h1 className="text-gray  text-9xl  font-sans font-semibold text-h500-T leading-8 not-italic">
         ¡Hagamoslo más personal!
       </h1>
@@ -9,19 +9,19 @@ const Frame = () => {
         gustos
       </p>
       <div className="flex gap-5 ">
-        <button className=" border border-[#A7A6A7] h-10 text-gray rounded-3xl px-2">
+        <button className=" border border-[#A7A6A7] h-12  text-gray rounded-3xl px-4">
           Tiendas de ropa
         </button>
-        <button className="border border-[#A7A6A7] h-10 text-gray  border-solid border-inherit rounded-3xl px-2 font-sans">
+        <button className="border border-[#A7A6A7] h-12 text-gray  border-solid border-inherit rounded-3xl px-4 font-sans">
           Restaurantes
         </button>
-        <button className="border border-[#A7A6A7] h-10 text-gray border-solid rounded-3xl  px-2 font-sans">
+        <button className="border border-[#A7A6A7] h-12 text-gray border-solid rounded-3xl  px-4 font-sans">
           Rock
         </button>
-        <button className="border border-[#A7A6A7] h-10 text-gray  border-solid rounded-3xl  px-2 font-sans">
+        <button className="border border-[#A7A6A7] h-12 text-gray  border-solid rounded-3xl  px-4 font-sans">
           Restaurantes
         </button>
-        <button className="border border-[#A7A6A7] h-10 text-gray border-solid  rounded-3xl  px-2 font-sans">
+        <button className="border border-[#A7A6A7] h-12 text-gray border-solid  rounded-3xl  px-4 font-sans">
           Restaurantes
         </button>
       </div>

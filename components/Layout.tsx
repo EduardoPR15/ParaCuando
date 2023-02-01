@@ -5,9 +5,12 @@ const Layout = () => {
   return (
     <>
       <Header />
-      <div className="flex flex-col px-64 py-6">
-        <div className="py-6">
-          <p className="text-[#1A1E2E] text-9xl  font-sans font-semibold text-h600 leading-7 not-italic">
+    <div className=''>
+
+   
+      <div className="flex flex-col px-6 py-6">
+        <div className="py-6 sm:w-[900px] w-10/12 mx-auto">
+          <p className="text-[#1A1E2E] text-9xl font-sans font-semibold text-h600 leading-7 not-italic">
             Populares en Queretano
           </p>
           <p className="text-[#6E6A6C] font-normal leading-5 text-base">
@@ -18,8 +21,8 @@ const Layout = () => {
           <Slider />
         </div>
       </div>
-      <div className="flex flex-col px-64 py-6">
-        <div className="py-6">
+      <div className="flex flex-col px-6 py-6">
+        <div className="py-6 sm:w-[900px] w-10/12 mx-auto">
           <p className="text-[#1A1E2E] text-9xl  font-sans font-semibold text-h600 leading-7 not-italic">
             Sugerencias para ti
           </p>
@@ -32,8 +35,8 @@ const Layout = () => {
         </div>
       </div>
 
-      <div className="flex flex-col px-64 py-6">
-        <div className="py-6">
+      <div className="flex flex-col px-6 py-6">
+        <div className="py-6 sm:w-[900px] w-10/12 mx-auto">
           <p className="text-[#1A1E2E] text-9xl  font-sans font-semibold text-h600 leading-7 not-italic">
             Recientes
           </p>
@@ -47,6 +50,7 @@ const Layout = () => {
       </div>
 
       <Footer />
+      </div>
     </>
   );
 };

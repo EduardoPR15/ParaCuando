@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const PubImg = () => {
   return (
@@ -14,7 +15,7 @@ const PubImg = () => {
         <p className='hidden sm:absolute sm:inline bottom-16 left-6 text-h400 text-white '>Ayuda</p>
         </div>
         <div className='w-11/12 m-auto -mt-5'>
-        <button className=' text-primary-blue text-h600 ml-6 mt-8'>Back</button>
+        <button className=' text-primary-blue text-h600 ml-6 mt-8'> <Link href='/publicacion'> Back</Link></button>
         <div className='w-3/4 sm:w-8/12 sm:ml-40 h-2 m-auto mt-6 rounded-lg bg-primary-grayLight overflow-hidden'>
             <div className='bg-primary-blue w-6/6 h-8' ></div>
         </div>

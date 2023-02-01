@@ -17,7 +17,7 @@ const MultiStepFrom = () => {
         <div className='w-3/4 sm:w-8/12 sm:ml-40 h-2 m-auto mt-6 rounded-lg bg-primary-grayLight overflow-hidden'>
             <div className='bg-primary-blue w-4/6 h-8' ></div>
         </div>
-        <div className=' pt-6 w-6/12 mx-auto'>
+        <div className=' pt-6 sm:w-6/12 w-11/12 mx-auto'>
         <h1 className='text-black text-h500-T '>Publicacion</h1>
         <p className='text-primary-gray mb-6'>Informacion basica</p>
 

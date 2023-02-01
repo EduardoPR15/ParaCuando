@@ -3,7 +3,7 @@ import Ladygaga from '../public/LadyGaga.png';
 import ProfileIcon from './ProfileIcon';
 const CardDetail = () => {
   return (
-    <div className="flex gap-6">
+    <div className="flex flex-col sm:flex-row max-w-[900px] gap-6 ">
       <div>
         <div className="pt-4 pl-4 pb-2 text-h600">Artista / Pop/ Rock</div>
         <div className="pt-4 pl-4 pb-2 text-h900">Concierto de Lady Gaga</div>

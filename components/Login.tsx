@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Login = () => {
@@ -12,7 +13,10 @@ const Login = () => {
     
     <div className="w-6/12 ">
         <div className='w-full sm:h-42 flex justify-center items-center mt-16 mb-10'>
+            <Link href='/'>
+            
             <img className='' src="./logoblue.png" alt="" />
+            </Link>
         </div>
 
         <div className=' max-w-sm mx-auto '>

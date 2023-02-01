@@ -38,3 +38,10 @@ const ProfilePage = () => {
 }
 
 export default ProfilePage
+
+const eventos = [
+  {
+    title: 'Tienda Zara',
+    description: ''
+  }
+]
