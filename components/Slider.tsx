@@ -9,38 +9,45 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { kMaxLength } from 'buffer';
+import NextArrow from './NextArrow';
 type Props = {};
 const Slider = () => {
   return (
-    
-    <div className=' w-11/12 m-auto relative overflow-hidden'>
+    <div className="flex flex-row items-center">
       <Swiper
-       grabCursor={true}
-      modules={[Navigation]}
-      spaceBetween={150} //10
-      slidesPerView={3} //3
-      navigation
-      onSwiper={(swiper) => console.log(swiper)}
-      className="w-[900px] m-auto   absolute">
-      <SwiperSlide className=' '>
-        <EventCard />
-      </SwiperSlide>
-      <SwiperSlide className=' '>
-        <EventCard />
-      </SwiperSlide>
-      <SwiperSlide className=' '>
-        <EventCard />
-      </SwiperSlide>
-      <SwiperSlide className=' '>
-        <EventCard />
-      </SwiperSlide>
-      <SwiperSlide className=' '>
-        <EventCard />
-      </SwiperSlide>
-      
-      .
-    </Swiper>
+        modules={[Navigation]}
+        spaceBetween={10}
+        slidesPerView={3}
+        // navigation
+        onSwiper={(swiper) => console.log(swiper)}
+        className="min-h-full"
+      >
+        <SwiperSlide>
+          <EventCard />
+        </SwiperSlide>
+        <SwiperSlide>
+          <EventCard />
+        </SwiperSlide>
+        <SwiperSlide>
+          <EventCard />
+        </SwiperSlide>
+        <SwiperSlide>
+          <EventCard />
+        </SwiperSlide>
+        <SwiperSlide>
+          <EventCard />
+        </SwiperSlide>
+        <SwiperSlide>
+          <EventCard />
+        </SwiperSlide>
+        <SwiperSlide>
+          <EventCard />
+        </SwiperSlide>
+        .
+      </Swiper>
+      <div className="">
+        <NextArrow />
+      </div>
     </div>
   );
 };
